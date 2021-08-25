@@ -1,0 +1,138 @@
+body {
+    background-image: url("assets,layout/speckledBackground.jpg") ;
+    /* background-color: cadetblue; */
+    color: white;
+}
+
+header {
+    position: relative;
+    text-align:center ;
+}
+
+ header a{
+    background-color: rgb(88, 81, 150);
+    border:solid 2px rgb(88, 81, 150);
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 6px;
+    color: white;
+    position: absolute;
+    top:-20%;
+    left: 90%;
+    float: right;
+}
+
+h6{
+    font-family:Harry P font ;
+}
+    
+.div1 {
+    position:relative; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.div1 a {
+    background-color:transparent;
+    border: solid 2px transparent;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 6px;
+    color: white;
+    width:20px;
+    height:20px;
+    margin: 10px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 10;
+}
+
+.div2{
+    position: relative;
+    text-align: center;
+    
+}
+
+#harryPotter {
+    position: relative;
+    left:33%;
+    margin-left:50px;
+    width:500px;
+    height:100px;
+    font-size: 40px;
+}
+
+#fave{
+    position:relative;
+    left:31%;
+    width:580px;
+    height:auto;
+    font-size: 60px;
+    margin: 50px;
+}
+
+.div2 a{
+    background-color: rgb(88, 81, 150);
+    border: solid 2px rgb(88, 81, 150);
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 9px;
+    color: white;
+}
+
+.div3{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.div3 a{
+    margin: 70px;
+    position: relative;
+    left:0%;
+    /* width:580px; */
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+footer{
+    margin:10px;
+    padding:5px;
+    border: solid 1px white;
+    height:200px;
+}
+
+
+.footer1 {
+    display: flex;
+    flex-direction: column;
+    background-color:transparent;
+    border: solid 2px transparent; 
+    width:200px;
+    
+}
+.footer2{
+    position:relative;
+    left:22%;
+    top:-28%;
+    display: flex;
+    flex-direction: column;
+    background-color:transparent;
+    border: solid 2px transparent;
+    width: 200px;
+}
+
+.footer3{
+    position: relative;
+    top:-57%;
+    left:45%;
+    display: flex;
+    flex-direction: column;
+    background-color:transparent;
+    border: solid 2px transparent;
+    width: 200px;
+}
