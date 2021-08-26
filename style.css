@@ -1,5 +1,5 @@
 body {
-    background-image: url("assets,layout/speckledBackground.jpg") ;
+    background-image: url("assets,layout/secondBackground.jpg") ;
     /* background-color: cadetblue; */
     color: white;
 }
@@ -20,6 +20,8 @@ header {
     top:-20%;
     left: 90%;
     float: right;
+    font-family: sans-serif;
+    font-weight: 600;
 }
 
 h6{
@@ -32,6 +34,8 @@ h6{
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    font-family: sans-serif ;
+    font-weight: 600;
 }
 
 .div1 a {
@@ -57,29 +61,45 @@ h6{
 
 #harryPotter {
     position: relative;
-    left:33%;
+    left:32%;
     margin-left:50px;
     width:500px;
     height:100px;
+    font-family: Sofia Pro, serif;
     font-size: 40px;
 }
 
 #fave{
     position:relative;
-    left:31%;
+    left:30%;
     width:580px;
     height:auto;
     font-size: 60px;
     margin: 50px;
 }
 
+#faveP {
+    position:relative;
+    top: 20%;
+    left: 40%;
+    width:350px;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
 .div2 a{
+    position: relative;
+    top:-50%;
+    left:1%;
     background-color: rgb(88, 81, 150);
     border: solid 2px rgb(88, 81, 150);
     border-radius: 20px;
     text-decoration: none;
-    padding: 9px;
+    padding: 9px 60px 9px 60px;
     color: white;
+    font-family: sans-serif;
+    font-weight: 600;
 }
 
 .div3{
@@ -118,7 +138,7 @@ footer{
 .footer2{
     position:relative;
     left:22%;
-    top:-28%;
+    top:-45%;
     display: flex;
     flex-direction: column;
     background-color:transparent;
@@ -128,11 +148,17 @@ footer{
 
 .footer3{
     position: relative;
-    top:-57%;
+    top:-90%;
     left:45%;
     display: flex;
     flex-direction: column;
     background-color:transparent;
     border: solid 2px transparent;
     width: 200px;
+}
+
+#fLinks {
+    padding:5px;
+    color: white;
+    text-decoration: none;
 }
