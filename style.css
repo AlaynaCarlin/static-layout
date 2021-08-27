@@ -119,15 +119,97 @@ h6{
     text-decoration: none;
 }
 
+.pinImg {
+    position:relative;
+    float: right;
+    margin:50px;
+}
+
+.pinButton{
+    position: relative;
+    top: 480px;
+    left: 35%;
+    background-color: rgb(88, 81, 150);
+    border:solid 2px rgb(88, 81, 150);
+    padding:14px 55px 14px 55px;
+    text-decoration: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.Express{
+    position: relative;
+    left:30%;
+    width:350px;
+    text-align: right;
+    font-size: 60px;
+}
+
+.ExpPara{
+    position: relative;
+    left: 25.5%;
+    width:430px;
+    text-align: right;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.journeyButton{
+    position: relative;
+    top:-90px;
+    left: -180px;
+    background-color: rgb(88, 81, 150);
+    border:solid 2px rgb(88, 81, 150);
+    padding:14px 55px 14px 55px;
+    text-decoration: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.book1Img{
+    position: relative;
+    margin:50px;
+}
+
+.start{
+    position: relative;
+    top:-430px;
+    left:49%;
+    width:400px;
+    font-size: 60px;
+    text-align: left;
+}
+
+.startPara{
+    position: relative;
+    top:-450px;
+    left: 49%;
+    width:510px;
+    text-align: left;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
 footer{
     margin:10px;
     padding:5px;
     border: solid 1px white;
-    height:200px;
+    height:400px;
 }
 
 
 .footer1 {
+    position: relative;
+    top: 20px;
+    left:60px;
     display: flex;
     flex-direction: column;
     background-color:transparent;
@@ -137,8 +219,8 @@ footer{
 }
 .footer2{
     position:relative;
-    left:22%;
-    top:-45%;
+    top:-70px;
+    left:350px;
     display: flex;
     flex-direction: column;
     background-color:transparent;
@@ -148,8 +230,8 @@ footer{
 
 .footer3{
     position: relative;
-    top:-90%;
-    left:45%;
+    top:-175px;
+    left:670px;
     display: flex;
     flex-direction: column;
     background-color:transparent;
@@ -161,4 +243,27 @@ footer{
     padding:5px;
     color: white;
     text-decoration: none;
+}
+
+footer h1{
+    position: relative;
+    top:-250px;
+    left:1100px;
+    width: 130px;
+    text-align: center;
+}
+
+footer h4{
+    position: relative;
+    top: -150px;
+    left:60px;
+}
+
+footer p{
+    position: relative;
+    top:-150px;
+    left:60px;
+    width:600px;
+    font-family: sans-serif;
+    font-weight: 500;
 }
