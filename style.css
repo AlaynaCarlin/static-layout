@@ -7,6 +7,7 @@ body {
 header {
     position: relative;
     text-align:center ;
+    font-size: 1vw;
 }
 
  header a{
@@ -14,7 +15,7 @@ header {
     border:solid 2px rgb(88, 81, 150);
     text-decoration: none;
     border-radius: 10px;
-    padding: 6px;
+    padding: .3vw;
     color: white;
     position: absolute;
     top:-20%;
@@ -22,10 +23,11 @@ header {
     float: right;
     font-family: sans-serif;
     font-weight: 600;
+    font-size: 1vw;
 }
 
 h6{
-    font-family:Harry P font ;
+    font-family:Harry P;
 }
     
 .div1 {
@@ -36,6 +38,7 @@ h6{
     flex-wrap: wrap;
     font-family: sans-serif ;
     font-weight: 600;
+    font-size: 1vw;
 }
 
 .div1 a {
@@ -43,14 +46,14 @@ h6{
     border: solid 2px transparent;
     text-decoration: none;
     border-radius: 10px;
-    padding: 6px;
+    padding: 1vw;
     color: white;
     width:20px;
     height:20px;
     margin: 10px;
     text-align: center;
     line-height: 20px;
-    font-size: 10;
+    /* font-size: 10; */
 }
 
 .div2{
@@ -61,12 +64,12 @@ h6{
 
 #harryPotter {
     position: relative;
-    left:32%;
-    margin-left:50px;
-    width:500px;
-    height:100px;
-    font-family: Sofia Pro, serif;
-    font-size: 40px;
+    left:0vw;
+    /* margin-left:50px; */
+    width:30vw;
+    /* height:100px; */
+    /* font-family: Sofia Pro, serif; */
+    font-size:2.2vw;
 }
 
 #fave{
@@ -76,6 +79,8 @@ h6{
     height:auto;
     font-size: 60px;
     margin: 50px;
+    font-size: 3vw;
+    font-family:'Courier New', Courier, monospace serif;
 }
 
 #faveP {
