@@ -7,7 +7,7 @@ body {
 header {
     position: relative;
     text-align:center ;
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
 
  header a{
@@ -74,37 +74,41 @@ h6{
 
 #fave{
     position:relative;
-    left:30%;
-    width:580px;
+    left:30vw;
+    right: 30vw;
+    width:40vw;
     height:auto;
-    font-size: 60px;
-    margin: 50px;
-    font-size: 3vw;
-    font-family:'Courier New', Courier, monospace serif;
+    /* margin: 50px; */
+    font-size: 4vw;
+    font-family:Harry P;
+    font-weight: lighter;
 }
 
 #faveP {
     position:relative;
-    top: 20%;
-    left: 40%;
-    width:350px;
-    padding: 10px;
+    /* top: 20%; */
+    left: 40vw;
+    right: 40vw;
+    width:20vw;
+    padding: 1vh;
     font-family: sans-serif;
     font-weight: 600;
+    font-size: 1vw;
 }
 
 .div2 a{
     position: relative;
-    top:-50%;
-    left:1%;
+    /* top:-50%; */
+    left:2vw;
     background-color: rgb(88, 81, 150);
     border: solid 2px rgb(88, 81, 150);
     border-radius: 20px;
     text-decoration: none;
-    padding: 9px 60px 9px 60px;
+    padding: .7vw 2vw .7vw 2vw;
     color: white;
     font-family: sans-serif;
     font-weight: 600;
+    font-size: 1vw;
 }
 
 .div3{
@@ -122,6 +126,15 @@ h6{
     color: white;
     font-size: 30px;
     text-decoration: none;
+}
+
+.div3 img{
+    width:400px;
+}
+
+.div3 p{
+    font-size: 2vw;
+    font-family: Harry P;
 }
 
 .pinImg {
